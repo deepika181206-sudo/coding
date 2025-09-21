@@ -1,0 +1,8 @@
+current_year=int(input("enter the current year: "))
+current_month=int(input("enter the current month: "))
+birth_year=int(input("enter your birth year: "))
+birth_month=int(input("enter your birth month: "))
+age=current_year-birth_year
+if current_month<birth_month:
+    age=age-1
+print(f"you are {age} years old")
