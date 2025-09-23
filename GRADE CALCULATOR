@@ -1,0 +1,16 @@
+print("***WELCOME TO GRADE CALCULATOR***")
+mark=int(input("enter yoour mark: "))
+if(mark>=95 and mark<=100):
+    print("A Grade")
+elif(mark>=90 and mark<95):
+    print("B Grade")
+elif(mark>=80 and mark<90):
+    print("C Grade")
+elif(mark>=70 and mark<80):
+    print("D Grade")
+elif(mark>=60 and mark<70):
+    print("E Grade")
+elif(mark>=0 and mark<50):
+    print("F Grade")
+else:
+    print("Invalid Mark")
